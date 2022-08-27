@@ -1,0 +1,17 @@
+%flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #376AC5;
+    @extend %flex;
+    justify-content: center;
+    padding: 16px 24px;
+    border-radius: 47.5px;
+    &:hover{
+        background-color: #19315a;
+    }
+}
