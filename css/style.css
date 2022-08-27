@@ -133,9 +133,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.header__lists nav ul li a div {
-  cursor: pointer;
-}
 .header__lists .line {
   background-color: #376AC5;
   height: 2px;
